@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: yellow; /* Set the background color to yellow */
+        }
+
+        img {
+            display: block;
+            margin: auto;
+            animation: spin 5s linear infinite; /* Adjust the duration and other properties */
+            transform-origin: center center; /* Rotate around the center of the image */
+        }
+
+        @keyframes spin {
+            from { transform: rotateY(0deg); }
+            to { transform: rotateY(360deg); }
+        }
+
+        .comicSansText {
+            text-align: center;
+            font-family: 'Comic Sans MS', cursive;
+            font-size: 50px;
+            margin-top: 10px;
+        }
+    </style>
+    <title>Peter Griffin Spinning</title>
+</head>
+<body>
+    <img src="C:/Users/jacks/OneDrive/Desktop/peter_griffin/peter_griffin_image.png" alt="Peter Griffin">
+    <div class="comicSansText">Peter Griffin</div>
+</body>
+</html>
